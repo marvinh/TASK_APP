@@ -1,3 +1,6 @@
+## DEMO LINK
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HQLH_sYOSV8/0.jpg)](https://www.youtube.com/watch?v=HQLH_sYOSV8)
 
 ## DIRECTIONS FOR RUNNING
 
@@ -7,6 +10,7 @@ https://www.docker.com/
 Make sure you have composer installed
 
 https://getcomposer.org/
+
 
 Go To the directory
 

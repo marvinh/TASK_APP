@@ -108,7 +108,7 @@ function Tasks() {
 
             var priority = 0.0;
             if (newIndex - 1 < 0) {
-                priority = tasks[newIndex].priority / 2.0;
+                priority = tasks.length < 1 ? 1 : tasks[newIndex].priority / 2.0;
             } else if (newIndex + 1 >= tasks.length) {
                 priority = tasks[newIndex].priority + 1;
             } else {
@@ -150,7 +150,7 @@ function Tasks() {
     const addNewTask = async (event) => {
         event.preventDefault();
 
-        let priority = tasks[0].priority / 2.0;
+        let priority = tasks.length < 1 ? 1 : tasks[0].priority / 2.0;;
         console.log(newName);
 
         let data = await addTask(newName, priority);
